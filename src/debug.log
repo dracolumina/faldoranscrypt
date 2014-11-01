@@ -1,0 +1,669 @@
+2014-10-31 22:38:19 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-10-31 22:38:19 FaldoranScrypt version v0.8.6.2-unk-beta ()
+2014-10-31 22:38:19 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-10-31 22:38:19 Default data directory .
+2014-10-31 22:38:19 Using data directory .
+2014-10-31 22:38:19 Using at most 125 connections (1024 file descriptors available)
+2014-10-31 22:38:19 Using 2 threads for script verification
+2014-10-31 22:38:19 init message: Verifying wallet...
+2014-10-31 22:38:19 dbenv.open LogDir=./database ErrorFile=./db.log
+2014-10-31 22:38:19 Bound to [::]:11020
+2014-10-31 22:38:19 Bound to 0.0.0.0:11020
+2014-10-31 22:38:19 init message: Loading block index...
+2014-10-31 22:38:19 Opening LevelDB in ./blocks/index
+2014-10-31 22:38:19 Opened LevelDB successfully
+2014-10-31 22:38:19 Opening LevelDB in ./chainstate
+2014-10-31 22:38:19 Opened LevelDB successfully
+2014-10-31 22:38:19 LoadBlockIndexDB(): last block file = 0
+2014-10-31 22:38:19 LoadBlockIndexDB(): transaction index disabled
+2014-10-31 22:38:19 Initializing databases...
+2014-10-31 22:38:19 f7bdb65bd8e0eb12fc65e88578db169938bf83962e513e7ff37bc596346c0511
+2014-10-31 22:38:19 f7bdb65bd8e0eb12fc65e88578db169938bf83962e513e7ff37bc596346c0511
+2014-10-31 22:38:19 df5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618
+2014-10-31 22:38:19 CBlock(hash=f7bdb65bd8e0eb12fc65e88578db169938bf83962e513e7ff37bc596346c0511, input=01000000000000000000000000000000000000000000000000000000000000000000000018b62c87618d1016d413fbf0eccab7a6188cf02a03811f16da457cc9dd4c5ddfb9282c54f0ff0f1e0b65547c, PoW=000004bf390462447887a0afb00a4e3643d167b48ce56776dd6bc99dc149a9e7, ver=1, hashPrevBlock=0000000000000000000000000000000000000000000000000000000000000000, hashMerkleRoot=df5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618, nTime=1412180153, nBits=1e0ffff0, nNonce=2085905675, vtx=1)
+2014-10-31 22:38:19   CTransaction(hash=df5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618, ver=1, vin.size=1, vout.size=1, nLockTime=0)
+    CTxIn(COutPoint(0000000000000000000000000000000000000000000000000000000000000000, 4294967295), coinbase 04ffff001d01040d4d74676f7820697320646f776e)
+    CTxOut(nValue=50.00000000, scriptPubKey=040184710fa689ad5023690c80f3a4)
+  vMerkleTree: df5d4cddc97c45da161f81032af08c18a6b7caecf0fb13d416108d61872cb618 
+2014-10-31 22:38:19 Pre-allocating up to position 0x1000000 in blk00000.dat
+2014-10-31 22:38:19 SetBestChain: new best=f7bdb65bd8e0eb12fc65e88578db169938bf83962e513e7ff37bc596346c0511  height=0  log2_work=20.000022  tx=1  date=2014-10-01 16:15:53 progress=0.000000
+2014-10-31 22:38:19 init message: Verifying blocks...
+2014-10-31 22:38:19  block index              44ms
+2014-10-31 22:38:19 init message: Loading wallet...
+2014-10-31 22:38:19 nFileVersion = 80602
+2014-10-31 22:38:19 Performing wallet upgrade to 60000
+2014-10-31 22:38:19 keypool added key 1, size=1
+2014-10-31 22:38:19 keypool added key 2, size=2
+2014-10-31 22:38:19 keypool added key 3, size=3
+2014-10-31 22:38:19 keypool added key 4, size=4
+2014-10-31 22:38:19 keypool added key 5, size=5
+2014-10-31 22:38:19 keypool added key 6, size=6
+2014-10-31 22:38:19 keypool added key 7, size=7
+2014-10-31 22:38:19 keypool added key 8, size=8
+2014-10-31 22:38:19 keypool added key 9, size=9
+2014-10-31 22:38:19 keypool added key 10, size=10
+2014-10-31 22:38:19 keypool added key 11, size=11
+2014-10-31 22:38:19 keypool added key 12, size=12
+2014-10-31 22:38:19 keypool added key 13, size=13
+2014-10-31 22:38:19 keypool added key 14, size=14
+2014-10-31 22:38:19 keypool added key 15, size=15
+2014-10-31 22:38:19 keypool added key 16, size=16
+2014-10-31 22:38:19 keypool added key 17, size=17
+2014-10-31 22:38:19 keypool added key 18, size=18
+2014-10-31 22:38:19 keypool added key 19, size=19
+2014-10-31 22:38:19 keypool added key 20, size=20
+2014-10-31 22:38:19 keypool added key 21, size=21
+2014-10-31 22:38:19 keypool added key 22, size=22
+2014-10-31 22:38:19 keypool added key 23, size=23
+2014-10-31 22:38:19 keypool added key 24, size=24
+2014-10-31 22:38:19 keypool added key 25, size=25
+2014-10-31 22:38:19 keypool added key 26, size=26
+2014-10-31 22:38:19 keypool added key 27, size=27
+2014-10-31 22:38:19 keypool added key 28, size=28
+2014-10-31 22:38:19 keypool added key 29, size=29
+2014-10-31 22:38:19 keypool added key 30, size=30
+2014-10-31 22:38:19 keypool added key 31, size=31
+2014-10-31 22:38:19 keypool added key 32, size=32
+2014-10-31 22:38:19 keypool added key 33, size=33
+2014-10-31 22:38:19 keypool added key 34, size=34
+2014-10-31 22:38:19 keypool added key 35, size=35
+2014-10-31 22:38:19 keypool added key 36, size=36
+2014-10-31 22:38:19 keypool added key 37, size=37
+2014-10-31 22:38:19 keypool added key 38, size=38
+2014-10-31 22:38:19 keypool added key 39, size=39
+2014-10-31 22:38:19 keypool added key 40, size=40
+2014-10-31 22:38:19 keypool added key 41, size=41
+2014-10-31 22:38:19 keypool added key 42, size=42
+2014-10-31 22:38:19 keypool added key 43, size=43
+2014-10-31 22:38:19 keypool added key 44, size=44
+2014-10-31 22:38:19 keypool added key 45, size=45
+2014-10-31 22:38:19 keypool added key 46, size=46
+2014-10-31 22:38:19 keypool added key 47, size=47
+2014-10-31 22:38:19 keypool added key 48, size=48
+2014-10-31 22:38:19 keypool added key 49, size=49
+2014-10-31 22:38:19 keypool added key 50, size=50
+2014-10-31 22:38:19 keypool added key 51, size=51
+2014-10-31 22:38:19 keypool added key 52, size=52
+2014-10-31 22:38:19 keypool added key 53, size=53
+2014-10-31 22:38:19 keypool added key 54, size=54
+2014-10-31 22:38:19 keypool added key 55, size=55
+2014-10-31 22:38:19 keypool added key 56, size=56
+2014-10-31 22:38:19 keypool added key 57, size=57
+2014-10-31 22:38:19 keypool added key 58, size=58
+2014-10-31 22:38:19 keypool added key 59, size=59
+2014-10-31 22:38:19 keypool added key 60, size=60
+2014-10-31 22:38:19 keypool added key 61, size=61
+2014-10-31 22:38:19 keypool added key 62, size=62
+2014-10-31 22:38:19 keypool added key 63, size=63
+2014-10-31 22:38:19 keypool added key 64, size=64
+2014-10-31 22:38:19 keypool added key 65, size=65
+2014-10-31 22:38:19 keypool added key 66, size=66
+2014-10-31 22:38:19 keypool added key 67, size=67
+2014-10-31 22:38:19 keypool added key 68, size=68
+2014-10-31 22:38:19 keypool added key 69, size=69
+2014-10-31 22:38:19 keypool added key 70, size=70
+2014-10-31 22:38:19 keypool added key 71, size=71
+2014-10-31 22:38:19 keypool added key 72, size=72
+2014-10-31 22:38:19 keypool added key 73, size=73
+2014-10-31 22:38:19 keypool added key 74, size=74
+2014-10-31 22:38:19 keypool added key 75, size=75
+2014-10-31 22:38:19 keypool added key 76, size=76
+2014-10-31 22:38:19 keypool added key 77, size=77
+2014-10-31 22:38:19 keypool added key 78, size=78
+2014-10-31 22:38:19 keypool added key 79, size=79
+2014-10-31 22:38:19 keypool added key 80, size=80
+2014-10-31 22:38:19 keypool added key 81, size=81
+2014-10-31 22:38:19 keypool added key 82, size=82
+2014-10-31 22:38:19 keypool added key 83, size=83
+2014-10-31 22:38:19 keypool added key 84, size=84
+2014-10-31 22:38:19 keypool added key 85, size=85
+2014-10-31 22:38:19 keypool added key 86, size=86
+2014-10-31 22:38:19 keypool added key 87, size=87
+2014-10-31 22:38:19 keypool added key 88, size=88
+2014-10-31 22:38:19 keypool added key 89, size=89
+2014-10-31 22:38:19 keypool added key 90, size=90
+2014-10-31 22:38:19 keypool added key 91, size=91
+2014-10-31 22:38:19 keypool added key 92, size=92
+2014-10-31 22:38:19 keypool added key 93, size=93
+2014-10-31 22:38:19 keypool added key 94, size=94
+2014-10-31 22:38:19 keypool added key 95, size=95
+2014-10-31 22:38:19 keypool added key 96, size=96
+2014-10-31 22:38:19 keypool added key 97, size=97
+2014-10-31 22:38:19 keypool added key 98, size=98
+2014-10-31 22:38:19 keypool added key 99, size=99
+2014-10-31 22:38:19 keypool added key 100, size=100
+2014-10-31 22:38:19 keypool added key 101, size=101
+2014-10-31 22:38:19 keypool reserve 1
+2014-10-31 22:38:19 keypool keep 1
+2014-10-31 22:38:19  wallet                  366ms
+2014-10-31 22:38:19 init message: Loading addresses...
+2014-10-31 22:38:19 ERROR: CAddrman::Read() : open failed
+2014-10-31 22:38:19 Invalid or missing peers.dat; recreating
+2014-10-31 22:38:19 Loaded 0 addresses from peers.dat  0ms
+2014-10-31 22:38:19 mapBlockIndex.size() = 1
+2014-10-31 22:38:19 nBestHeight = 0
+2014-10-31 22:38:19 setKeyPool.size() = 100
+2014-10-31 22:38:19 mapWallet.size() = 0
+2014-10-31 22:38:19 mapAddressBook.size() = 1
+2014-10-31 22:38:19 AddLocal(46.105.158.195:11020,1)
+2014-10-31 22:38:19 IPv4 venet0:0: 46.105.158.195
+2014-10-31 22:38:19 Error: To use faldoranscryptd, you must set a rpcpassword in the configuration file:
+./coin.conf
+It is recommended you use the following random password:
+rpcuser=faldoranscryptrpc
+rpcpassword=F2vRVXP78Cgq17HZjXqeYrKuEYoVsZXjj8GtUgj4e13G
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %s | mail -s "faldoranscrypt Alert" admin@foo.com
+
+2014-10-31 22:38:19 init message: Done loading
+2014-10-31 22:38:19 Shutdown : In progress...
+2014-10-31 22:38:19 Flush(false)
+2014-10-31 22:38:19 wallet.dat refcount=0
+2014-10-31 22:38:19 wallet.dat checkpoint
+2014-10-31 22:38:19 net thread start
+2014-10-31 22:38:19 addcon thread start
+2014-10-31 22:38:19 addcon thread interrupt
+2014-10-31 22:38:19 opencon thread start
+2014-10-31 22:38:19 opencon thread interrupt
+2014-10-31 22:38:19 wallet.dat detach
+2014-10-31 22:38:19 msghand thread start
+2014-10-31 22:38:19 dumpaddr thread start
+2014-10-31 22:38:19 dumpaddr thread stop
+2014-10-31 22:38:19 msghand thread interrupt
+2014-10-31 22:38:19 dnsseed thread start
+2014-10-31 22:38:19 Loading addresses from DNS seeds (could take a while)
+2014-10-31 22:38:19 0 addresses found from DNS seeds
+2014-10-31 22:38:19 dnsseed thread exit
+2014-10-31 22:38:19 wallet.dat closed
+2014-10-31 22:38:19 DBFlush(false) ended               5ms
+2014-10-31 22:38:19 StopNode()
+2014-10-31 22:38:19 net thread interrupt
+2014-10-31 22:38:19 Flushed 0 addresses to peers.dat  1ms
+2014-10-31 22:38:19 Committing 0 changed transactions to coin database...
+2014-10-31 22:38:19 Flush(true)
+2014-10-31 22:38:19 wallet.dat refcount=0
+2014-10-31 22:38:19 wallet.dat checkpoint
+2014-10-31 22:38:19 wallet.dat detach
+2014-10-31 22:38:19 wallet.dat closed
+2014-10-31 22:38:19 DBFlush(true) ended               0ms
+2014-10-31 22:38:19 Shutdown : done
+2014-10-31 22:39:48 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-10-31 22:39:48 FaldoranScrypt version v0.8.6.2-unk-beta ()
+2014-10-31 22:39:48 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-10-31 22:39:48 Default data directory .
+2014-10-31 22:39:48 Using data directory .
+2014-10-31 22:39:48 Using at most 125 connections (1024 file descriptors available)
+2014-10-31 22:39:48 Using 2 threads for script verification
+2014-10-31 22:39:48 init message: Verifying wallet...
+2014-10-31 22:39:48 dbenv.open LogDir=./database ErrorFile=./db.log
+2014-10-31 22:39:48 Bound to [::]:11020
+2014-10-31 22:39:48 Bound to 0.0.0.0:11020
+2014-10-31 22:39:48 init message: Loading block index...
+2014-10-31 22:39:48 Opening LevelDB in ./blocks/index
+2014-10-31 22:39:48 Opened LevelDB successfully
+2014-10-31 22:39:48 Opening LevelDB in ./chainstate
+2014-10-31 22:39:48 Opened LevelDB successfully
+2014-10-31 22:39:48 LoadBlockIndexDB(): last block file = 0
+2014-10-31 22:39:48 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=237, heights=0...0, time=2014-10-01...2014-10-01)
+2014-10-31 22:39:48 LoadBlockIndexDB(): transaction index disabled
+2014-10-31 22:39:48 LoadBlockIndexDB(): hashBestChain=f7bdb65bd8e0eb12fc65e88578db169938bf83962e513e7ff37bc596346c0511  height=0 date=2014-10-01 16:15:53
+2014-10-31 22:39:48 init message: Verifying blocks...
+2014-10-31 22:39:48  block index               6ms
+2014-10-31 22:39:48 init message: Loading wallet...
+2014-10-31 22:39:48 nFileVersion = 80602
+2014-10-31 22:39:48  wallet                  113ms
+2014-10-31 22:39:48 init message: Loading addresses...
+2014-10-31 22:39:48 Loaded 0 addresses from peers.dat  0ms
+2014-10-31 22:39:48 mapBlockIndex.size() = 1
+2014-10-31 22:39:48 nBestHeight = 0
+2014-10-31 22:39:48 setKeyPool.size() = 100
+2014-10-31 22:39:48 mapWallet.size() = 0
+2014-10-31 22:39:48 mapAddressBook.size() = 1
+2014-10-31 22:39:48 AddLocal(46.105.158.195:11020,1)
+2014-10-31 22:39:48 IPv4 venet0:0: 46.105.158.195
+2014-10-31 22:39:48 Error: To use faldoranscryptd, you must set a rpcpassword in the configuration file:
+./coin.conf
+It is recommended you use the following random password:
+rpcuser=faldoranscryptrpc
+rpcpassword=Fxo4VV5znhYHDMYEN8MYbdBA2BRtPTox4SNrs1pinxTv
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %s | mail -s "faldoranscrypt Alert" admin@foo.com
+
+2014-10-31 22:39:48 init message: Done loading
+2014-10-31 22:39:48 Shutdown : In progress...
+2014-10-31 22:39:48 Flush(false)
+2014-10-31 22:39:48 wallet.dat refcount=0
+2014-10-31 22:39:48 wallet.dat checkpoint
+2014-10-31 22:39:48 opencon thread start
+2014-10-31 22:39:48 net thread start
+2014-10-31 22:39:48 opencon thread interrupt
+2014-10-31 22:39:48 dnsseed thread start
+2014-10-31 22:39:48 Loading addresses from DNS seeds (could take a while)
+2014-10-31 22:39:48 0 addresses found from DNS seeds
+2014-10-31 22:39:48 dnsseed thread exit
+2014-10-31 22:39:48 addcon thread start
+2014-10-31 22:39:48 msghand thread start
+2014-10-31 22:39:48 dumpaddr thread start
+2014-10-31 22:39:48 dumpaddr thread stop
+2014-10-31 22:39:48 addcon thread interrupt
+2014-10-31 22:39:48 wallet.dat detach
+2014-10-31 22:39:48 msghand thread interrupt
+2014-10-31 22:39:48 wallet.dat closed
+2014-10-31 22:39:48 DBFlush(false) ended               1ms
+2014-10-31 22:39:48 StopNode()
+2014-10-31 22:39:48 net thread interrupt
+2014-10-31 22:39:48 Flushed 0 addresses to peers.dat  1ms
+2014-10-31 22:39:48 Committing 0 changed transactions to coin database...
+2014-10-31 22:39:48 Flush(true)
+2014-10-31 22:39:48 wallet.dat refcount=0
+2014-10-31 22:39:48 wallet.dat checkpoint
+2014-10-31 22:39:48 wallet.dat detach
+2014-10-31 22:39:48 wallet.dat closed
+2014-10-31 22:39:48 DBFlush(true) ended               1ms
+2014-10-31 22:39:48 Shutdown : done
+2014-10-31 22:40:01 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-10-31 22:40:01 FaldoranScrypt version v0.8.6.2-unk-beta ()
+2014-10-31 22:40:01 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-10-31 22:40:01 Default data directory .
+2014-10-31 22:40:01 Using data directory .
+2014-10-31 22:40:01 Using at most 125 connections (1024 file descriptors available)
+2014-10-31 22:40:01 Using 2 threads for script verification
+2014-10-31 22:40:01 init message: Verifying wallet...
+2014-10-31 22:40:01 dbenv.open LogDir=./database ErrorFile=./db.log
+2014-10-31 22:40:01 Bound to [::]:11020
+2014-10-31 22:40:01 Bound to 0.0.0.0:11020
+2014-10-31 22:40:01 init message: Loading block index...
+2014-10-31 22:40:01 Opening LevelDB in ./blocks/index
+2014-10-31 22:40:01 Opened LevelDB successfully
+2014-10-31 22:40:01 Opening LevelDB in ./chainstate
+2014-10-31 22:40:01 Opened LevelDB successfully
+2014-10-31 22:40:01 LoadBlockIndexDB(): last block file = 0
+2014-10-31 22:40:01 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=237, heights=0...0, time=2014-10-01...2014-10-01)
+2014-10-31 22:40:01 LoadBlockIndexDB(): transaction index disabled
+2014-10-31 22:40:01 LoadBlockIndexDB(): hashBestChain=f7bdb65bd8e0eb12fc65e88578db169938bf83962e513e7ff37bc596346c0511  height=0 date=2014-10-01 16:15:53
+2014-10-31 22:40:01 init message: Verifying blocks...
+2014-10-31 22:40:01  block index              64ms
+2014-10-31 22:40:01 init message: Loading wallet...
+2014-10-31 22:40:01 nFileVersion = 80602
+2014-10-31 22:40:01  wallet                  117ms
+2014-10-31 22:40:01 init message: Loading addresses...
+2014-10-31 22:40:01 Loaded 0 addresses from peers.dat  0ms
+2014-10-31 22:40:01 mapBlockIndex.size() = 1
+2014-10-31 22:40:01 nBestHeight = 0
+2014-10-31 22:40:01 setKeyPool.size() = 100
+2014-10-31 22:40:01 mapWallet.size() = 0
+2014-10-31 22:40:01 mapAddressBook.size() = 1
+2014-10-31 22:40:01 AddLocal(46.105.158.195:11020,1)
+2014-10-31 22:40:01 IPv4 venet0:0: 46.105.158.195
+2014-10-31 22:40:01 Error: To use faldoranscryptd, you must set a rpcpassword in the configuration file:
+./coin.conf
+It is recommended you use the following random password:
+rpcuser=faldoranscryptrpc
+rpcpassword=DQGAYm5nkUuEAdu6mpEMz3Ga8dEVaE7xZW7qyTpBudEJ
+(you do not need to remember this password)
+The username and password MUST NOT be the same.
+If the file does not exist, create it with owner-readable-only file permissions.
+It is also recommended to set alertnotify so you are notified of problems;
+for example: alertnotify=echo %s | mail -s "faldoranscrypt Alert" admin@foo.com
+
+2014-10-31 22:40:01 init message: Done loading
+2014-10-31 22:40:01 addcon thread start
+2014-10-31 22:40:01 opencon thread start
+2014-10-31 22:40:01 msghand thread start
+2014-10-31 22:40:01 addcon thread interrupt
+2014-10-31 22:40:01 opencon thread interrupt
+2014-10-31 22:40:01 net thread start
+2014-10-31 22:40:01 dnsseed thread start
+2014-10-31 22:40:01 Loading addresses from DNS seeds (could take a while)
+2014-10-31 22:40:01 0 addresses found from DNS seeds
+2014-10-31 22:40:01 dnsseed thread exit
+2014-10-31 22:40:01 dumpaddr thread start
+2014-10-31 22:40:01 dumpaddr thread stop
+2014-10-31 22:40:01 Shutdown : In progress...
+2014-10-31 22:40:01 msghand thread interrupt
+2014-10-31 22:40:01 Flush(false)
+2014-10-31 22:40:01 wallet.dat refcount=0
+2014-10-31 22:40:01 wallet.dat checkpoint
+2014-10-31 22:40:01 wallet.dat detach
+2014-10-31 22:40:01 wallet.dat closed
+2014-10-31 22:40:01 DBFlush(false) ended               2ms
+2014-10-31 22:40:01 StopNode()
+2014-10-31 22:40:01 net thread interrupt
+2014-10-31 22:40:01 Flushed 0 addresses to peers.dat  0ms
+2014-10-31 22:40:01 Committing 0 changed transactions to coin database...
+2014-10-31 22:40:01 Flush(true)
+2014-10-31 22:40:01 wallet.dat refcount=0
+2014-10-31 22:40:01 wallet.dat checkpoint
+2014-10-31 22:40:01 wallet.dat detach
+2014-10-31 22:40:01 wallet.dat closed
+2014-10-31 22:40:01 DBFlush(true) ended               1ms
+2014-10-31 22:40:01 Shutdown : done
+2014-10-31 22:40:35 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2014-10-31 22:40:35 FaldoranScrypt version v0.8.6.2-unk-beta ()
+2014-10-31 22:40:35 Using OpenSSL version OpenSSL 1.0.1f 6 Jan 2014
+2014-10-31 22:40:35 Default data directory .
+2014-10-31 22:40:35 Using data directory .
+2014-10-31 22:40:35 Using at most 125 connections (1024 file descriptors available)
+2014-10-31 22:40:35 Using 2 threads for script verification
+2014-10-31 22:40:35 init message: Verifying wallet...
+2014-10-31 22:40:35 dbenv.open LogDir=./database ErrorFile=./db.log
+2014-10-31 22:40:35 Bound to [::]:11020
+2014-10-31 22:40:35 Bound to 0.0.0.0:11020
+2014-10-31 22:40:35 init message: Loading block index...
+2014-10-31 22:40:35 Opening LevelDB in ./blocks/index
+2014-10-31 22:40:35 Opened LevelDB successfully
+2014-10-31 22:40:35 Opening LevelDB in ./chainstate
+2014-10-31 22:40:35 Opened LevelDB successfully
+2014-10-31 22:40:35 LoadBlockIndexDB(): last block file = 0
+2014-10-31 22:40:35 LoadBlockIndexDB(): last block file info: CBlockFileInfo(blocks=1, size=237, heights=0...0, time=2014-10-01...2014-10-01)
+2014-10-31 22:40:35 LoadBlockIndexDB(): transaction index disabled
+2014-10-31 22:40:35 LoadBlockIndexDB(): hashBestChain=f7bdb65bd8e0eb12fc65e88578db169938bf83962e513e7ff37bc596346c0511  height=0 date=2014-10-01 16:15:53
+2014-10-31 22:40:35 init message: Verifying blocks...
+2014-10-31 22:40:35  block index               7ms
+2014-10-31 22:40:35 init message: Loading wallet...
+2014-10-31 22:40:35 nFileVersion = 80602
+2014-10-31 22:40:35  wallet                  138ms
+2014-10-31 22:40:35 init message: Loading addresses...
+2014-10-31 22:40:35 Loaded 0 addresses from peers.dat  0ms
+2014-10-31 22:40:35 mapBlockIndex.size() = 1
+2014-10-31 22:40:35 nBestHeight = 0
+2014-10-31 22:40:35 setKeyPool.size() = 100
+2014-10-31 22:40:35 mapWallet.size() = 0
+2014-10-31 22:40:35 mapAddressBook.size() = 1
+2014-10-31 22:40:35 AddLocal(46.105.158.195:11020,1)
+2014-10-31 22:40:35 IPv4 venet0:0: 46.105.158.195
+2014-10-31 22:40:35 dnsseed thread start
+2014-10-31 22:40:35 Loading addresses from DNS seeds (could take a while)
+2014-10-31 22:40:35 0 addresses found from DNS seeds
+2014-10-31 22:40:35 dnsseed thread exit
+2014-10-31 22:40:35 net thread start
+2014-10-31 22:40:35 addcon thread start
+2014-10-31 22:40:35 trying connection 0.0.0.0:11020 lastseen=365220.9hrs
+2014-10-31 22:40:35 connected 0.0.0.0:11020
+2014-10-31 22:40:35 send version message: version 70002, blocks=0, us=46.105.158.195:11020, them=0.0.0.0:0, peer=0.0.0.0:11020
+2014-10-31 22:40:35 opencon thread start
+2014-10-31 22:40:35 accepted connection 127.0.0.1:38002
+2014-10-31 22:40:35 msghand thread start
+2014-10-31 22:40:35 dumpaddr thread start
+2014-10-31 22:40:35 init message: Done loading
+2014-10-31 22:40:35 connected to self at 127.0.0.1:38002, disconnecting
+2014-10-31 22:40:35 disconnecting node 127.0.0.1:38002
+2014-10-31 22:40:35 socket closed
+2014-10-31 22:40:35 disconnecting node 0.0.0.0:11020
+2014-10-31 22:40:35 GetMyExternalIP() received [46.105.158.195] 46.105.158.195:0
+2014-10-31 22:40:35 GetMyExternalIP() returned 46.105.158.195
+2014-10-31 22:40:35 AddLocal(46.105.158.195:11020,4)
+2014-10-31 22:40:39 accepted connection 54.194.99.126:38148
+2014-10-31 22:40:39 send version message: version 70002, blocks=0, us=46.105.158.195:11020, them=54.194.99.126:38148, peer=54.194.99.126:38148
+2014-10-31 22:40:39 Added time data, samples 2, offset -369 (-6 minutes)
+2014-10-31 22:40:39 Added 54.194.99.126:11020 from 54.194.99.126: 0 tried, 1 new
+2014-10-31 22:40:39 Moving 54.194.99.126:11020 to tried
+2014-10-31 22:40:39 receive version message: /Satoshi:0.8.6.2/: version 70002, blocks=17, us=46.105.158.195:11020, them=54.194.99.126:11020, peer=54.194.99.126:38148
+2014-10-31 22:40:39 received block 822cc4227f9b10b9dff570f95b9a85c43781eafc8eea1dad94d60044ad83287a
+2014-10-31 22:40:39 Pre-allocating up to position 0x100000 in rev00000.dat
+2014-10-31 22:40:39 SetBestChain: new best=822cc4227f9b10b9dff570f95b9a85c43781eafc8eea1dad94d60044ad83287a  height=1  log2_work=21.000022  tx=2  date=2014-10-29 00:10:56 progress=0.000000
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block e7e6084ce5f528acd440309de2de5f7ca50ac9b72382dc02a4a20338653d00b7
+2014-10-31 22:40:39 SetBestChain: new best=e7e6084ce5f528acd440309de2de5f7ca50ac9b72382dc02a4a20338653d00b7  height=2  log2_work=21.584985  tx=3  date=2014-10-29 10:34:18 progress=0.000000
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 6837be1ea57dd7f56417351f7cf931ea7724b1a0bde559cd92a5d3ad0c901fc3
+2014-10-31 22:40:39 SetBestChain: new best=6837be1ea57dd7f56417351f7cf931ea7724b1a0bde559cd92a5d3ad0c901fc3  height=3  log2_work=22.000022  tx=4  date=2014-10-30 10:10:22 progress=0.000000
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 6efc805bc27d19b346d04b4e6f396c9ce82cfaf842fcc80571196e8e5cc5e971
+2014-10-31 22:40:39 SetBestChain: new best=6efc805bc27d19b346d04b4e6f396c9ce82cfaf842fcc80571196e8e5cc5e971  height=4  log2_work=22.32195  tx=5  date=2014-10-30 10:11:22 progress=0.000000
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 53504913c40218f2d4bc681eb7ef79ecfeb0dfd317316f522b9748f77f7b69bf
+2014-10-31 22:40:39 SetBestChain: new best=53504913c40218f2d4bc681eb7ef79ecfeb0dfd317316f522b9748f77f7b69bf  height=5  log2_work=22.584985  tx=6  date=2014-10-30 10:47:34 progress=0.000000
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 2c929ce7e574d57cfc1fb45d221d31e56edbc71db9cfe7fc869e9c22aa730c01
+2014-10-31 22:40:39 SetBestChain: new best=2c929ce7e574d57cfc1fb45d221d31e56edbc71db9cfe7fc869e9c22aa730c01  height=6  log2_work=22.807377  tx=7  date=2014-10-31 14:07:57 progress=0.000000
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 8295b334e6d8e2c3ff490e10d3ce4012479aa070435b0651fef0f7b3515f19fe
+2014-10-31 22:40:39 Committing 7 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=8295b334e6d8e2c3ff490e10d3ce4012479aa070435b0651fef0f7b3515f19fe  height=7  log2_work=23.000022  tx=8  date=2014-10-31 22:20:58 progress=0.000000
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block b00e196f5a4ed33cf3b433c9c8872628f12561c895dd858c9aff3266c0567454
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=b00e196f5a4ed33cf3b433c9c8872628f12561c895dd858c9aff3266c0567454  height=8  log2_work=23.169947  tx=9  date=2014-10-31 22:21:24 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 7cad800a44abe82a04fc1172a23427235c314215fb4cdd0d270c661b85b2316b
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=7cad800a44abe82a04fc1172a23427235c314215fb4cdd0d270c661b85b2316b  height=9  log2_work=23.32195  tx=10  date=2014-10-31 22:21:38 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 1f7e8e76516411b72481f89f2d57a0288d5c4dad64a684b95e895080f6df29df
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=1f7e8e76516411b72481f89f2d57a0288d5c4dad64a684b95e895080f6df29df  height=10  log2_work=23.459454  tx=11  date=2014-10-31 22:21:42 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 6d9cb1d76dfd1fc165f3be592fced4e9370fc9360e612d6080008e4f2acc0b4b
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=6d9cb1d76dfd1fc165f3be592fced4e9370fc9360e612d6080008e4f2acc0b4b  height=11  log2_work=23.584985  tx=12  date=2014-10-31 22:22:30 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 678c2651764ca6c800b47e944efd215a7f88558415e37599b5ac32a038f6ae87
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=678c2651764ca6c800b47e944efd215a7f88558415e37599b5ac32a038f6ae87  height=12  log2_work=23.700462  tx=13  date=2014-10-31 22:23:07 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 95e58b9af0a56195bda9bcc385d3662b75ec8bb15f4429dcb49c7431ec45a6cd
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=95e58b9af0a56195bda9bcc385d3662b75ec8bb15f4429dcb49c7431ec45a6cd  height=13  log2_work=23.807377  tx=14  date=2014-10-31 22:23:13 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 15209f3113999bd28e683eb2bc076d825a14c58425df785cd6b3c3f419552d76
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=15209f3113999bd28e683eb2bc076d825a14c58425df785cd6b3c3f419552d76  height=14  log2_work=23.906913  tx=15  date=2014-10-31 22:23:21 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 2812910c9614a800f2a3eb64eb4227844e40aa7a7bc69fffdbb79eb2e55342e3
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=2812910c9614a800f2a3eb64eb4227844e40aa7a7bc69fffdbb79eb2e55342e3  height=15  log2_work=24.000022  tx=16  date=2014-10-31 22:23:31 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block f2f8192f52cfe9b3c7195fba5bdaf004b1b9b80798a7ec41aa24a62bd5f5875b
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=f2f8192f52cfe9b3c7195fba5bdaf004b1b9b80798a7ec41aa24a62bd5f5875b  height=16  log2_work=24.087485  tx=17  date=2014-10-31 22:23:35 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:39 received block 7fba326cabe75ca0055e65a955e5f4d03978fd926a05c3cea15baa42af165042
+2014-10-31 22:40:39 Committing 1 changed transactions to coin database...
+2014-10-31 22:40:39 SetBestChain: new best=7fba326cabe75ca0055e65a955e5f4d03978fd926a05c3cea15baa42af165042  height=17  log2_work=24.169947  tx=18  date=2014-10-31 22:23:37 progress=0.000001
+2014-10-31 22:40:39 ProcessBlock: ACCEPTED
+2014-10-31 22:40:40 accepted connection 75.100.237.36:51522
+2014-10-31 22:40:40 send version message: version 70002, blocks=17, us=46.105.158.195:11020, them=75.100.237.36:51522, peer=75.100.237.36:51522
+2014-10-31 22:40:40 Added time data, samples 3, offset +40 (+0 minutes)
+2014-10-31 22:40:40 Added 75.100.237.36:11020 from 75.100.237.36: 1 tried, 1 new
+2014-10-31 22:40:40 Moving 75.100.237.36:11020 to tried
+2014-10-31 22:40:40 receive version message: /Satoshi:0.8.6.2/: version 70002, blocks=17, us=46.105.158.195:11020, them=75.100.237.36:11020, peer=75.100.237.36:51522
+2014-10-31 22:40:41 accepted connection 75.100.237.36:51515
+2014-10-31 22:40:45 accepted connection 37.187.118.124:60637
+2014-10-31 22:40:45 send version message: version 70002, blocks=17, us=46.105.158.195:11020, them=37.187.118.124:60637, peer=37.187.118.124:60637
+2014-10-31 22:40:45 Added time data, samples 4, offset +0 (+0 minutes)
+2014-10-31 22:40:45 Added 37.187.118.124:11020 from 37.187.118.124: 2 tried, 1 new
+2014-10-31 22:40:45 Moving 37.187.118.124:11020 to tried
+2014-10-31 22:40:45 receive version message: /Satoshi:0.8.6.2/: version 70002, blocks=17, us=46.105.158.195:11020, them=37.187.118.124:11020, peer=37.187.118.124:60637
+2014-10-31 22:41:42 socket no message in first 60 seconds, 0 0
+2014-10-31 22:41:42 disconnecting node 75.100.237.36:51515
+2014-10-31 22:42:35 trying connection 0.0.0.0:11020 lastseen=365220.9hrs
+2014-10-31 22:42:35 connected 0.0.0.0:11020
+2014-10-31 22:42:35 send version message: version 70002, blocks=17, us=46.105.158.195:11020, them=0.0.0.0:0, peer=0.0.0.0:11020
+2014-10-31 22:42:35 accepted connection 127.0.0.1:57946
+2014-10-31 22:42:35 connected to self at 127.0.0.1:57946, disconnecting
+2014-10-31 22:42:35 disconnecting node 127.0.0.1:57946
+2014-10-31 22:42:35 socket closed
+2014-10-31 22:42:35 disconnecting node 0.0.0.0:11020
+2014-10-31 22:44:36 trying connection 0.0.0.0:11020 lastseen=365221.0hrs
+2014-10-31 22:44:36 connected 0.0.0.0:11020
+2014-10-31 22:44:36 send version message: version 70002, blocks=17, us=46.105.158.195:11020, them=0.0.0.0:0, peer=0.0.0.0:11020
+2014-10-31 22:44:36 accepted connection 127.0.0.1:49634
+2014-10-31 22:44:36 connected to self at 127.0.0.1:49634, disconnecting
+2014-10-31 22:44:36 disconnecting node 127.0.0.1:49634
+2014-10-31 22:44:36 socket closed
+2014-10-31 22:44:36 disconnecting node 0.0.0.0:11020
+2014-10-31 22:45:26 socket closed
+2014-10-31 22:45:26 disconnecting node 37.187.118.124:60637
+2014-10-31 22:45:26 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:26 connect() failed after select(): Connection refused
+2014-10-31 22:45:28 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:28 connect() failed after select(): Connection refused
+2014-10-31 22:45:28 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:28 connect() failed after select(): Connection refused
+2014-10-31 22:45:30 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:30 connect() failed after select(): Connection refused
+2014-10-31 22:45:30 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:30 connect() failed after select(): Connection refused
+2014-10-31 22:45:32 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:32 connect() failed after select(): Connection refused
+2014-10-31 22:45:33 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:33 connect() failed after select(): Connection refused
+2014-10-31 22:45:34 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:34 connect() failed after select(): Connection refused
+2014-10-31 22:45:34 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:34 connect() failed after select(): Connection refused
+2014-10-31 22:45:35 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:35 connect() failed after select(): Connection refused
+2014-10-31 22:45:36 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:36 connect() failed after select(): Connection refused
+2014-10-31 22:45:36 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:36 connect() failed after select(): Connection refused
+2014-10-31 22:45:37 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:37 connect() failed after select(): Connection refused
+2014-10-31 22:45:37 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:37 connect() failed after select(): Connection refused
+2014-10-31 22:45:40 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:40 connect() failed after select(): Connection refused
+2014-10-31 22:45:41 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:41 connect() failed after select(): Connection refused
+2014-10-31 22:45:43 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:43 connect() failed after select(): Connection refused
+2014-10-31 22:45:44 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:44 connect() failed after select(): Connection refused
+2014-10-31 22:45:45 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:45 connect() failed after select(): Connection refused
+2014-10-31 22:45:49 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:49 connect() failed after select(): Connection refused
+2014-10-31 22:45:49 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:49 connect() failed after select(): Connection refused
+2014-10-31 22:45:50 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:50 connect() failed after select(): Connection refused
+2014-10-31 22:45:53 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:53 connect() failed after select(): Connection refused
+2014-10-31 22:45:54 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:54 connect() failed after select(): Connection refused
+2014-10-31 22:45:56 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:56 connect() failed after select(): Connection refused
+2014-10-31 22:45:57 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:57 connect() failed after select(): Connection refused
+2014-10-31 22:45:59 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:59 connect() failed after select(): Connection refused
+2014-10-31 22:45:59 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:45:59 connect() failed after select(): Connection refused
+2014-10-31 22:46:00 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:46:00 connect() failed after select(): Connection refused
+2014-10-31 22:46:01 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:46:01 connect() failed after select(): Connection refused
+2014-10-31 22:46:02 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:46:02 connect() failed after select(): Connection refused
+2014-10-31 22:46:05 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:46:05 connect() failed after select(): Connection refused
+2014-10-31 22:46:06 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:46:06 connect() failed after select(): Connection refused
+2014-10-31 22:46:08 trying connection 37.187.118.124:11020 lastseen=0.1hrs
+2014-10-31 22:46:08 connect() failed after select(): Connection refused
+2014-10-31 22:46:11 Shutdown : In progress...
+2014-10-31 22:46:11 opencon thread interrupt
+2014-10-31 22:46:11 addcon thread interrupt
+2014-10-31 22:46:11 dumpaddr thread stop
+2014-10-31 22:46:11 msghand thread interrupt
+2014-10-31 22:46:11 Flush(false)
+2014-10-31 22:46:11 wallet.dat refcount=0
+2014-10-31 22:46:11 wallet.dat checkpoint
+2014-10-31 22:46:11 wallet.dat detach
+2014-10-31 22:46:11 wallet.dat closed
+2014-10-31 22:46:11 DBFlush(false) ended               1ms
+2014-10-31 22:46:11 StopNode()
+2014-10-31 22:46:11 net thread interrupt
+2014-10-31 22:46:11 Flushed 3 addresses to peers.dat  2ms
+2014-10-31 22:46:11 Committing 0 changed transactions to coin database...
+2014-10-31 22:46:11 Flush(true)
+2014-10-31 22:46:11 wallet.dat refcount=0
+2014-10-31 22:46:11 wallet.dat checkpoint
+2014-10-31 22:46:11 wallet.dat detach
+2014-10-31 22:46:11 wallet.dat closed
+2014-10-31 22:46:11 DBFlush(true) ended               1ms
+2014-10-31 22:46:11 Shutdown : done
